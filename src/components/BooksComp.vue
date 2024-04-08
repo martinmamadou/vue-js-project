@@ -8,7 +8,7 @@ async function callApi() {
     const fetcher = await fetch(url)
     const json = await fetcher.json()
     books.value = json
-    console.log(json)
+  
 }
 callApi()
 
